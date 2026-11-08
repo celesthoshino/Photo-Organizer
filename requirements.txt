@@ -1,0 +1,6 @@
+# Reads the "date taken" that cameras and phones store inside photos.
+Pillow>=10.0
+
+# Lets Pillow read the date from HEIC/HEIF, the photo format iPhones use.
+# Without it, iPhone photos fall back to the date in the file name or the file's own date.
+pillow-heif>=0.18
